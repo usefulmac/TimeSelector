@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		C6C2A81621C9F90B004C5998 /* TimeSelector.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6C2A80C21C9F90B004C5998 /* TimeSelector.swift */; };
 		C6C2A81721C9F90B004C5998 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6C2A80D21C9F90B004C5998 /* AppDelegate.swift */; };
-		C6C2A81821C9F90B004C5998 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = C6C2A80E21C9F90B004C5998 /* Info.plist */; };
 		C6C2A81921C9F90B004C5998 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6C2A80F21C9F90B004C5998 /* ViewController.swift */; };
 		C6C2A81A21C9F90B004C5998 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C6C2A81121C9F90B004C5998 /* LaunchScreen.storyboard */; };
 		C6C2A81B21C9F90B004C5998 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C6C2A81321C9F90B004C5998 /* Main.storyboard */; };
@@ -20,7 +19,7 @@
 		C6C2A7EC21C9E476004C5998 /* TimeSelector.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TimeSelector.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C6C2A80C21C9F90B004C5998 /* TimeSelector.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TimeSelector.swift; path = Classes/TimeSelector.swift; sourceTree = SOURCE_ROOT; };
 		C6C2A80D21C9F90B004C5998 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = Classes/AppDelegate.swift; sourceTree = SOURCE_ROOT; };
-		C6C2A80E21C9F90B004C5998 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = Classes/Info.plist; sourceTree = SOURCE_ROOT; };
+		C6C2A80E21C9F90B004C5998 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = SOURCE_ROOT; };
 		C6C2A80F21C9F90B004C5998 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ViewController.swift; path = Classes/ViewController.swift; sourceTree = SOURCE_ROOT; };
 		C6C2A81221C9F90B004C5998 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C6C2A81421C9F90B004C5998 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Main.storyboard; sourceTree = "<group>"; };
@@ -41,6 +40,7 @@
 		C6C2A7E321C9E476004C5998 = {
 			isa = PBXGroup;
 			children = (
+				C6C2A80E21C9F90B004C5998 /* Info.plist */,
 				C6C2A80B21C9F8F9004C5998 /* Classes */,
 				C6C2A7ED21C9E476004C5998 /* Products */,
 			);
@@ -60,7 +60,6 @@
 				C6C2A80D21C9F90B004C5998 /* AppDelegate.swift */,
 				C6C2A81521C9F90B004C5998 /* Assets.xcassets */,
 				C6C2A81021C9F90B004C5998 /* Base.lproj */,
-				C6C2A80E21C9F90B004C5998 /* Info.plist */,
 				C6C2A80C21C9F90B004C5998 /* TimeSelector.swift */,
 				C6C2A80F21C9F90B004C5998 /* ViewController.swift */,
 			);
@@ -138,7 +137,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				C6C2A81B21C9F90B004C5998 /* Main.storyboard in Resources */,
-				C6C2A81821C9F90B004C5998 /* Info.plist in Resources */,
 				C6C2A81C21C9F90B004C5998 /* Assets.xcassets in Resources */,
 				C6C2A81A21C9F90B004C5998 /* LaunchScreen.storyboard in Resources */,
 			);
@@ -302,7 +300,7 @@
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 9SK76T3X96;
-				INFOPLIST_FILE = TimeSelector/Info.plist;
+				INFOPLIST_FILE = Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -322,7 +320,7 @@
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 9SK76T3X96;
-				INFOPLIST_FILE = TimeSelector/Info.plist;
+				INFOPLIST_FILE = Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
