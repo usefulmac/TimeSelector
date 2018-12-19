@@ -1,9 +1,12 @@
-**TimeSelector**
-The Time Picker that is available in Android... Now available in iOS!
+**TimeSelector**  
+
+The Time Picker that is available in Android... Now available in iOS!  
+  
+  
 ![Selecting the hour](https://playr.app/images/timeSelector.jpg)
 ![Selecting the minute](https://playr.app/images/timeSelector2.jpg)
 
-**Example Usage (Swift)**
+**Example Usage (Swift)**  
     let timeSelector = TimeSelector()
     timeSelector.timeSelected = {
 	    (timeSelector) in
