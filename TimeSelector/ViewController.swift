@@ -47,7 +47,7 @@ class ViewController: UIViewController {
             self.setLabelFromDate(timeSelector.date)
         }
         timeSelector.overlayAlpha = 0.8
-        timeSelector.clockTint = rgb(0, 230, 0)
+        timeSelector.clockTint = timeSelector_rgb(0, 230, 0)
         timeSelector.minutes = 30
         timeSelector.hours = 5
         timeSelector.isAm = false

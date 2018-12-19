@@ -16,7 +16,7 @@
 
 import UIKit
 
-func rgb(_ r: CGFloat, _ g: CGFloat, _ b: CGFloat) -> UIColor {
+func timeSelector_rgb(_ r: CGFloat, _ g: CGFloat, _ b: CGFloat) -> UIColor {
     let tc: CGFloat = 255.0
     return UIColor.init(red: r/tc, green: g/tc, blue: b/tc, alpha: 1.0)
 }
@@ -65,13 +65,13 @@ class TimeSelector: UIView {
     private var hourLabels: [UILabel] = []
     private var minuteLabels: [UILabel] = []
     
-    private let grayTextColor = rgb(189, 189, 189)
+    private let grayTextColor = timeSelector_rgb(189, 189, 189)
     
     private var needsTimeRefresh = true
     
     var timeSelected: (_ timeSelector: TimeSelector) -> Void = {_ in}
     var overlayAlpha: CGFloat = 0.9
-    var clockTint: UIColor = rgb(0, 230, 0) {
+    var clockTint: UIColor = timeSelector_rgb(0, 230, 0) {
         didSet {
             selectorCircle.backgroundColor = clockTint
             centerCircle.backgroundColor = clockTint
@@ -165,11 +165,11 @@ class TimeSelector: UIView {
         overlay.contentView.addGestureRecognizer(dismissTap)
         
         container = UIView(frame: CGRekt((self.frame.size.width-containerSize.width)/2.0, (self.frame.size.height-containerSize.height)/2.0, containerSize.width, containerSize.height))
-        container.backgroundColor = rgb(66, 66, 66)
+        container.backgroundColor = timeSelector_rgb(66, 66, 66)
         self.addSubview(container)
         
         headerView = UIView(frame: CGRekt(0, 0, containerSize.width, headerHeight))
-        headerView.backgroundColor = rgb(85, 85, 85)
+        headerView.backgroundColor = timeSelector_rgb(85, 85, 85)
         container.addSubview(headerView)
         
         circleSize = containerSize.width-(timeCirclePadding*2.0)
