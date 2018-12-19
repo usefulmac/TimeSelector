@@ -12,6 +12,7 @@
 		C6C2A7F521C9E476004C5998 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C6C2A7F321C9E476004C5998 /* Main.storyboard */; };
 		C6C2A7F721C9E477004C5998 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C6C2A7F621C9E477004C5998 /* Assets.xcassets */; };
 		C6C2A7FA21C9E477004C5998 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C6C2A7F821C9E477004C5998 /* LaunchScreen.storyboard */; };
+		C6C2A80221C9E5D6004C5998 /* TimeSelector.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6C2A80121C9E5D6004C5998 /* TimeSelector.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		C6C2A7F621C9E477004C5998 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C6C2A7F921C9E477004C5998 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C6C2A7FB21C9E477004C5998 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C6C2A80121C9E5D6004C5998 /* TimeSelector.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimeSelector.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 			children = (
 				C6C2A7EF21C9E476004C5998 /* AppDelegate.swift */,
 				C6C2A7F121C9E476004C5998 /* ViewController.swift */,
+				C6C2A80121C9E5D6004C5998 /* TimeSelector.swift */,
 				C6C2A7F321C9E476004C5998 /* Main.storyboard */,
 				C6C2A7F621C9E477004C5998 /* Assets.xcassets */,
 				C6C2A7F821C9E477004C5998 /* LaunchScreen.storyboard */,
@@ -136,6 +139,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C6C2A7F221C9E476004C5998 /* ViewController.swift in Sources */,
+				C6C2A80221C9E5D6004C5998 /* TimeSelector.swift in Sources */,
 				C6C2A7F021C9E476004C5998 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
